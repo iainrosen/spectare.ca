@@ -25,7 +25,6 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
-            document.getElementById("preload-msg").style.visibility = "hidden";
 		});
 
 	// Mobile?
