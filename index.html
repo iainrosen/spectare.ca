@@ -20,6 +20,9 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="index.html">Spectare Technologies</a></h1>
+                        <div id="preload-msg" style="visibility: visible">
+                            <span>Loading...</span>
+                        </div>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -39,6 +42,12 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+                            <script>
+                            function hidePreload() {
+                                document.getElementById("preload-msg").style.visibility = "hidden";
+                                }
+                            </script>
+                            <script>hidePreload()</script>
 							<h2>Spectare Technologies</h2>
 							<p>Empowering small businesses through advanced payment,<br>
                                 online presence, and enterprise server management.</p>
